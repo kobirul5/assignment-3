@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisiUI and tailwind link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>   
+    <!-- tailwind link end -->
+    <!-- googl font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        }
+    </style>
+    <!-- googl font link -->
+     <!-- fonawsomee link  -->
+     <script src="https://kit.fontawesome.com/0301225de3.js" crossorigin="anonymous"></script>
+     <!-- configuration tailwind  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'body-color': '#F4F4F4',
+                'green': '#ABEF5F',
+                'dark-1': '#1C1C1C',
+                'dark-2': '#212121',
+                'dark-3': '#494949',
+                'dark-4': '#737373',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="manrope bg-body-color">
+  <header class=" container mx-auto py-12">
+    <!-- nav section -->
+    <div class="navbar text-dark-2">
+      <div class="flex-1 ">
+        <a class="hover:cursor-pointer text-xl"><i class="fa-solid fa-arrow-right bg-green p-3 rounded-full -rotate-45"></i> <span class="text-3xl font-bold">Rinterio</span></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="dark-3 font-bold">Home</a></li>
+          <li><a class="text-dark-4">Services</a></li>
+          <li><a class="text-dark-4">Portfolio</a></li>
+          <li><a class="text-dark-4">Blogs</a></li>
+          <li><a class="text-dark-4">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="flex-1 ">
+        <div class="">
+          <a class="text-dark-4 hover:cursor-pointer"><i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full"></i></a>
+          <a class="text-dark-4 ml-6 hover:cursor-pointer" ><i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full"></i></a>
+          <a class="p-3 rounded-full text-dark-2 ml-6 font-bold text-xl bg-green bg-opacity-50">Book Consult <i class="fa-solid fa-arrow-right text-white bg-dark-1  p-2 rounded-full -rotate-45"></i></a>
+        </div>
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+            <li><a>Item 1</a></li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- nav section end -->
+  </header>
+</body>
+<!-- <i class="fa-solid fa-arrow-right bg-green p-3 rounded-full -rotate-45"></i>  -->
+</html>
