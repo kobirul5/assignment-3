@@ -41,7 +41,7 @@
       </script>
 </head>
 <body class="manrope bg-body-color">
-  <header class=" container mx-auto py-12">
+  <header class="container mx-auto py-12">
     <!-- nav section -->
     <div class="navbar text-dark-2">
       <div class="flex-1 ">
@@ -57,25 +57,44 @@
         </ul>
       </div>
       <div class="flex-1 ">
-        <div class="">
+        <div class=" hidden md:block">
           <a class="text-dark-4 hover:cursor-pointer"><i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full"></i></a>
           <a class="text-dark-4 ml-6 hover:cursor-pointer" ><i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full"></i></a>
           <a class="p-3 rounded-full text-dark-2 ml-6 font-bold text-xl bg-green bg-opacity-50">Book Consult <i class="fa-solid fa-arrow-right text-white bg-dark-1  p-2 rounded-full -rotate-45"></i></a>
         </div>
-        <div class="dropdown">
+        <div class="dropdown flex-1 text-left">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
             <i class="fa-solid fa-bars"></i>
           </div>
           <ul
             tabindex="0"
             class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
-            <li><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
+            <li><a class="dark-3 font-bold">Home</a></li>
+            <li><a class="text-dark-4">Services</a></li>
+            <li><a class="text-dark-4">Portfolio</a></li>
+            <li><a class="text-dark-4">Blogs</a></li>
+            <li><a class="text-dark-4">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </div>
     <!-- nav section end -->
+     <!-- banner section start -->
+      <section class="mx-auto">
+        <div>
+          <div class="hero-content text-center">
+            <div class="">
+              <img class="mx-auto" src="./assets/banner.png" alt="">
+              <h1 class="mb-5 text-3xl lg:text-7xl text-dark-2 font-bold">A barn house of this design has a striking appearance</h1>
+              <p class="mb-5 text-dark-3 mx-auto w-9/12">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+              </p>
+              <button class=" py-3 px-5 rounded-full text-dark-2 font-bold text-xl bg-green bg-opacity-50 w-full md:w-56">View Details <i class="fa-solid fa-arrow-right bg-green bg-dark-1  p-2 rounded-full -rotate-45"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- banner section end -->
   </header>
 </body>
 <!-- <i class="fa-solid fa-arrow-right bg-green p-3 rounded-full -rotate-45"></i>  -->
