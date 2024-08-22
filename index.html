@@ -44,44 +44,57 @@
   <header class="py-12 bg-gradient-to-t from-white">
     <div></div>
     <!-- nav section -->
-     <nav class="container mx-auto">
-       <div class="navbar text-dark-2">
-         <div class="flex-1 ">
-           <a class="hover:cursor-pointer text-xl"><i class="fa-solid fa-arrow-right bg-green p-3 rounded-full -rotate-45"></i> <span class="text-3xl font-bold">Rinterio</span></a>
-         </div>
-         <div class="navbar-center hidden lg:flex">
-           <ul class="menu menu-horizontal px-1">
-             <li><a class="dark-3 font-bold">Home</a></li>
-             <li><a class="text-dark-4">Services</a></li>
-             <li><a class="text-dark-4">Portfolio</a></li>
-             <li><a class="text-dark-4">Blogs</a></li>
-             <li><a class="text-dark-4">Contact Us</a></li>
-           </ul>
-         </div>
-         <div class="flex-1 ">
-           <div class=" hidden md:block">
-             <a class="text-dark-4 hover:cursor-pointer"><i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full"></i></a>
-             <a class="text-dark-4 ml-6 hover:cursor-pointer" ><i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full"></i></a>
-             <a class="p-3 rounded-full text-dark-2 ml-6 font-bold text-xl bg-green ">Book Consult <i class="fa-solid fa-arrow-right text-white bg-dark-1  p-2 rounded-full -rotate-45"></i></a>
-           </div>
-           <div class="dropdown flex-1 text-left">
-             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-               <i class="fa-solid fa-bars"></i>
-             </div>
-             <ul
-               tabindex="0"
-               class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
-               <li><a class="dark-3 font-bold">Home</a></li>
-               <li><a class="text-dark-4">Services</a></li>
-               <li><a class="text-dark-4">Portfolio</a></li>
-               <li><a class="text-dark-4">Blogs</a></li>
-               <li><a class="text-dark-4">Contact Us</a></li>
-             </ul>
-           </div>
-         </div>
+    <nav class="container mx-auto">
+      <div class="flex justify-between">
+        <!-- fast  -->
+      <div>
+        <a class="hover:cursor-pointer text-xl flex items-center gap-2">
+          <i class="fa-solid fa-arrow-right bg-green p-3 w-10 h-10 text-center rounded-full -rotate-45"></i>
+          <span class="text-3xl font-bold">Rinterio</span>
+        </a>
+      </div>
+      <!-- 2nd  -->
+       <div >
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="dark-3 font-bold">Home</a></li>
+            <li><a class="text-dark-4">Services</a></li>
+            <li><a class="text-dark-4">Portfolio</a></li>
+            <li><a class="text-dark-4">Blogs</a></li>
+            <li><a class="text-dark-4">Contact Us</a></li>
+          </ul>
+        </div>
        </div>
-
-     </nav>
+       <!-- 3rd -->
+        <div class="flex items-center">
+          <div class=" hidden md:block">
+            <a class="text-dark-4 hover:cursor-pointer">
+             <i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full"></i>
+           </a>
+            <a class="text-dark-4 ml-3 hover:cursor-pointer" >
+             <i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full"></i>
+           </a>
+            <a class="p-3 rounded-full text-dark-2 ml-3 font-bold text-xl bg-green ">
+             Book Consult <i class="fa-solid fa-arrow-right text-white bg-dark-1  p-2 rounded-full -rotate-45"></i>
+           </a>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div class=" w-12 h-12 rounded-full p-3 bg-white text-xl"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+              <li><a class="dark-3 font-bold">Home</a></li>
+              <li><a class="text-dark-4">Services</a></li>
+              <li><a class="text-dark-4">Portfolio</a></li>
+              <li><a class="text-dark-4">Blogs</a></li>
+              <li><a class="text-dark-4">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- nav section end -->
      <!-- banner section start -->
       <section class="container mx-auto">
@@ -413,7 +426,10 @@
     <footer class="footer footer-center bg-dark-1 text-base-content rounded py-24 text-white">
       <div class="space-y-8 text-center">
         <div class="">
-          <a class="hover:cursor-pointer text-xl text-center"><i class="fa-solid fa-arrow-right bg-green w-12 h-12 p-3 rounded-full -rotate-45"></i> <span class="text-3xl font-bold">Rinterio</span></a>
+          <a class="hover:cursor-pointer text-xl flex items-center gap-2">
+            <i class="fa-solid fa-arrow-right bg-green p-3 w-10 h-10 text-center rounded-full -rotate-45"></i>
+            <span class="text-3xl font-bold">Rinterio</span>
+          </a>
         </div>
         <p class=" mx-auto lg:w-7/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>  
       </div>
